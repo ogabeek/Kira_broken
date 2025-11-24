@@ -75,7 +75,7 @@ class Ability:
         Raises:
             NotImplementedError: Must be implemented in subclass
         """
-        raise NotImplementedError("Метод 'shoot' должен быть реализован в подклассе.")
+        raise NotImplementedError("method 'shot' must be inside oof the class as a method")
 
     def update_bullets(self) -> None:
         """Update all bullets and remove expired ones."""

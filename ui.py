@@ -30,6 +30,6 @@ def draw_game_over(display_surface: pygame.Surface) -> None:
     """
     display_surface.fill(WHITE)
     font = pygame.font.Font(None, 74)  # Font for message
-    game_over_text = font.render('Ты умер))', True, (255, 0, 0))  # Red color
+    game_over_text = font.render('Dead =))', True, (255, 0, 0))  # Red color
     text_rect = game_over_text.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2))  # Center the text
     display_surface.blit(game_over_text, text_rect)  # Render the text
